@@ -1,0 +1,76 @@
+.Sname {
+  margin-bottom: 0!important;
+}
+.Introtext {
+  margin-bottom: 15px!important;
+}
+.Description {
+  display: table;
+  margin-bottom: 15px;
+  background: #f9ca47;
+  color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+  line-height: 1;
+}
+.Price {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.Price small {
+  font-size: 16px;
+  color: #707070;
+  text-decoration: line-through;
+}
+.Product {
+  position: relative;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.Product:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.Total {
+  font-size: 24px;
+  line-height: 1;
+}
+.Discount {
+  line-height: 1;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #707070;
+  font-weight: 300;
+}
+.Container {
+  padding: 15px;
+  background: #f9ca47;
+  height: 100%;;
+  margin-top: 15px;
+}
+.PromoCode {
+  font-size: 14px;
+  line-height: 1;
+  color: #707070;
+  padding: 15px;
+  background: #f18963;
+  position: relative;
+  color: #fff;
+}
+.PromoCode small {
+  display: block;
+}
+
+@media(min-width: 576px){
+  .Container {
+    padding: 30px;
+    margin-top: 0;
+  }
+  .Total {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}

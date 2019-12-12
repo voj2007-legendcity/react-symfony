@@ -1,0 +1,27 @@
+* {
+  outline: none!important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+b, strong {
+  font-weight: 700;
+}
+a, a:active, a:focus, a:hover {
+  color: #303030;
+  text-decoration: none;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  outline: none;
+}
+h1 {
+  font-size: 30px;
+}
+
+@media(min-width: 576px){
+  h1 {
+    font-size: 2.5rem;
+  }
+}

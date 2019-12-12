@@ -1,0 +1,28 @@
+.BlHappyClients {
+  background: #fff;
+  padding-bottom: 15px;
+}
+.BlHappyClients.Front {
+  background: url('../../images/welcome-pattern.png') no-repeat top center;
+  padding: 200px 0 20px;
+  position: relative;
+  z-index: 10;
+}
+.Introtext {
+  border-bottom: 1px solid #ebebeb;
+  padding: 50px 0;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.BlHappyClients.Front .Introtext {
+  padding: 0 0 50px;
+}
+.Counter {
+  color: #379be5;
+}
+
+@media(min-width: 576px){
+  .Introtext {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,181 @@
+.Header {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  background-color: #379be5;
+}
+.Header a:hover {
+  color: #bcdafb;
+}
+.TopHeaderArea{
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.TopHeaderContent a {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 50px;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.TopHeaderContent a:first-child{
+  padding-right: 30px;
+}
+.TopHeaderContent a:last-child{
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  padding-left: 30px;
+}
+.TopHeaderContent a i {
+  padding-right: 5px;
+}
+.TopHeaderContent small {
+  position: absolute;
+  bottom: 5px;
+  height: 12px;
+  line-height: 1;
+  font-size: 10px;
+  left: 20px;
+  letter-spacing: .3px;
+}
+.TopHeaderContent.TopHeaderContentLast a {
+  border: 0;
+}
+.ClassyNavContainer {
+  background-color: transparent;
+  padding: 0;
+}
+.ClassyNavbar {
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  padding: 0;
+  height: 80px;
+}
+.ClassyNavbar a {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: none;
+  font-size: 14px;
+  color: #232323;
+  display: inline-block;
+}
+.NavBrand {
+  font-size: 26px;
+  font-weight: 500;
+  color: #232323;
+  display: inline-block;
+  margin-right: 30px;
+}
+.ClassyNavbarToggler {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+.NavbarToggler {
+  display: inline-block;
+  cursor: pointer;
+}
+.NavbarToggler span {
+  position: relative;
+  background-color: #fff;
+  border-radius: 3px;
+  display: block;
+  height: 3px;
+  margin-top: 5px;
+  padding: 0;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
+  width: 30px;
+  cursor: pointer;
+}
+.Classynav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+}
+.Classynav ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+}
+.Classynav ul li {
+  display: block;
+  clear: both;
+  position: inherit;
+  z-index: 10;
+}
+.Classynav ul li a {
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  line-height: 1.5;
+  text-align: right;
+}
+.HamiBtn {
+  position: relative;
+  z-index: 1;
+  min-width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0 40px;
+  text-align: center;
+  background-color: #379be5;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+.LiveChatBtn {
+  border: 1px solid #fff;
+  line-height: 48px;
+  color: #fff!important;
+  box-shadow: none;
+  font-size: 14px!important;
+}
+.LiveChatBtn:hover, .LiveChatBtn:focus {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: none;
+  color: #1abc9c!important;
+  font-weight: 600;
+  -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  background-color: #fff;
+}
+
+@media(min-width: 576px){
+  .Classynav ul li {
+    display: inline-block;
+  }
+  .Classynav ul li a {
+    display: block;
+    height: 40px;
+    line-height: 39px;
+    padding: 0 20px;
+    text-align: left;
+  }
+}

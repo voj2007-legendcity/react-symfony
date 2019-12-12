@@ -1,0 +1,39 @@
+.BlCourses {
+  padding: 0;
+  background: transparent;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 30px;
+}
+.BlCourses.Front {
+  padding: 190px 0 70px;
+  background: url('../../images/welcome-pattern.png') no-repeat center top;
+  margin-bottom: 0;
+}
+.BlCourses .Container {
+  text-align: center;
+  box-shadow: none;
+  border: 0;
+  padding: 0;
+}
+.BlCourses:not(.Front) .Container {
+  padding: 15px;
+}
+.Info {
+  text-align: left;
+}
+.Info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Info ul li:before {
+  content: '';
+  display: none;
+}
+
+@media(min-width: 576px){
+  .BlCourses:not(.Front) .Container {
+    padding: 30px;
+  }
+}

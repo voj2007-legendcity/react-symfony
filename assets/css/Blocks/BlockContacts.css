@@ -1,0 +1,9 @@
+.Item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.Item a {
+  text-decoration: none;
+}
+.Introtext {
+  margin-bottom: 30px;
+}

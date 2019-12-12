@@ -1,0 +1,9 @@
+.BlMotivation {
+  background: url('../../images/welcome-pattern.png') no-repeat top center;
+  padding: 200px 0 100px;
+  position: relative;
+  z-index: 10;
+}
+.Bname {
+  font-size: 30px!important;
+}

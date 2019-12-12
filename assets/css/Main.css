@@ -1,0 +1,10 @@
+.Main {
+  font-family: 'Roboto', sans-serif;
+}
+.Main a, .Main a:active, .Main a:focus, .Main a:hover {
+  text-decoration: none;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  outline: none;
+}

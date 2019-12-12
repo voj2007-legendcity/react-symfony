@@ -1,0 +1,84 @@
+.BlPagetitle {
+  background: #379be5;
+}
+.Container {
+  background: url('../../images/block/hero-illo_2x.png') no-repeat right top;
+  height: 400px;
+  background-size: contain;
+}
+.Pagetitle, .Introtext {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.Introtext {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.About .Container  {
+  background: url('../../images/block/footer-illo_2x.png') no-repeat left top;
+  background-size: contain;
+}
+.Contacts .Container  {
+  background: url('../../images/block/onboarding_2x.png') no-repeat right center;
+  background-size: contain;
+}
+.Policy .Container  {
+  background: url('../../images/block/new-features_2x.png') no-repeat right center;
+  background-size: contain;
+}
+.PaymentAndReturns .Container  {
+  background: url('../../images/block/payments_2x.png') no-repeat right center;
+  background-size: contain;
+}
+.BlPagetitle.Support  {
+  background-color: #f18963;
+}
+.Support .Container  {
+  background: url('../../images/block/support-illo.png') no-repeat right bottom;
+  background-size: contain;
+  height: 150px;
+}
+.Discount .Container  {
+  background: url('../../images/block/grow_2x.png') no-repeat right center;
+  background-size: contain;
+}
+.Cart .Container  {
+  background: url('../../images/block/illustration-b@2x.png') no-repeat center bottom;
+  background-size: contain;
+}
+
+@media(min-width: 768px){
+  .Pagetitle, .Introtext {
+    max-width: 50%;
+  }
+  .Reverse .Pagetitle, .Reverse .Introtext {
+    margin-left: auto;
+    min-width: 50%;
+  }
+  .Container {
+    background-size: 768px;
+    background-position-x: 125%;
+  }
+  .About .Container  {
+    background-size: 768px;
+    background-position-x: -40%;
+  }
+  .Contacts .Container  {
+    background-size: 300px;
+  }
+  .Policy .Container  {
+    background-size: 300px;
+  }
+  .PaymentAndReturns .Container  {
+    background-size: 300px;
+  }
+  .Support .Container  {
+    background-size: 250px;
+  }
+  .Discount .Container  {
+    background-size: 250px;
+  }
+  .Cart .Container  {
+    background-size: 100%;
+  }
+}

@@ -1,0 +1,7 @@
+.Picture {
+  margin-bottom: 50px;
+  margin-top: -50px;
+}
+.Picture img {
+  width: 500px;
+}

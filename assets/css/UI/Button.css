@@ -1,0 +1,66 @@
+.Button {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  min-width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 15px;
+  text-align: center;
+  background: #379be5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  line-height: 1;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  width: 100%;
+}
+.Button.Success{
+  background: #f9ca47;
+}
+.Button.Danger{
+  background: #f18963;
+}
+.Button.Remove {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  min-width: auto;
+  text-align: center;
+  padding: 0;
+  background: #f18963!important;
+  color: #fff!important;
+  line-height: 1;
+  font-size: 15px;
+  border-radius: 4px;
+  padding-bottom: 1px;
+  box-shadow: none!important;
+}
+.Button:hover{
+  background: #fff;
+  color: #1c66de;
+  -webkit-box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.6);
+  box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.8);
+}
+.Button:disabled {
+  color: #fff;
+  cursor: not-allowed;
+  background: #ccc;
+}
+.Button small {
+  display: block;
+  font-size: 10px;
+}
+
+@media(min-width: 576px){
+  .Button {
+    width: auto;
+  }
+}

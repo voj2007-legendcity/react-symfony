@@ -1,0 +1,48 @@
+.Footer {
+  
+}
+.Helper {
+  line-height: 1.2;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.BlTop a {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.BlTop a:hover {
+  color: #379be5;
+}
+.BlBottom {
+  padding: 15px 0;
+  background: #e8f1f8;
+  line-height: 1.2;
+}
+.BlBottom, .BlBottom a {
+  font-size: 16px;
+  color: #707070;
+}
+.BlBottom a {
+  font-weight: 600;
+  text-decoration: none;
+}
+.BlBottom i {
+  font-size: 24px;
+  color: #707070;
+  margin-left: 5px;
+}
+.Copyright i {
+  font-size:16px;
+}
+
+@media(min-width: 576px){
+  .BlTop {
+    padding: 50px 0;
+  }
+}

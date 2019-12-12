@@ -1,0 +1,30 @@
+.BlSupport {
+  background: #fff;
+}
+.Top {
+  background: #f9ca47;
+  height: 50px;
+}
+.Close {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+}
+.Close i {
+  font-size: 12px;
+}
+.Container {
+  border-radius: 0!important;
+  border: 0!important;
+  box-shadow: none!important;
+  margin-bottom: 0!important;
+  padding: 15px 0!important;
+}
+
+@media(min-width: 576px){
+  .Container {
+    padding: 30px 15px!important;
+  }
+}

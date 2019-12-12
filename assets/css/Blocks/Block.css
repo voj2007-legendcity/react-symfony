@@ -1,0 +1,118 @@
+.Container {
+  background: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #eceff1;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+  margin-bottom: 40px;
+}
+.Bname, .Introtext {
+  position: relative;
+  z-index: 5;
+}
+.Bname, .Sname, .BlName {
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.Sname {
+  font-size: 22px;
+}
+.Introtext, .BlIntrotext {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #707070;
+  font-weight: 300
+}
+.BlName {
+  line-height: 1;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.BlIntrotext {
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+.Content {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #707070;
+  font-weight: 300;
+}
+.Content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+.Content ul li {
+  position: relative;
+  padding-left: 25px;
+  line-height: 1.4;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 300;
+}
+.Content ul li:not(:last-child) {
+  margin-bottom: 5px;
+}
+.Content ul li:before {
+  content: "\f00c";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  font-size: 11px;
+  color: #379be5;
+}
+.Content h3, .Content h4 {
+  font-size: 16px;
+  color: #212529;
+}
+.Content h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.Content *:last-child {
+  /* margin-bottom: 0; */
+}
+.Link {
+  color: #379be5;
+  font-size: 14px;
+  text-decoration: underline;
+  line-height: 1;
+  font-weight: 300;
+}
+.Link:hover {
+  color: #379be5;
+  text-decoration: none;
+}
+.Picture {
+  margin-bottom: 40px;
+}
+.Footer {
+  padding: 15px;
+  margin: 0 -15px -15px;
+  background: #e8f1f8;
+  margin-top: 30px;
+}
+
+@media(min-width: 576px){
+  .Container {
+    padding: 70px 30px;
+  }
+  .Bname, .Sname, .BlName {
+    font-size: 26px;
+  }
+  .BlBlock {
+    margin-bottom: 30px;
+  }
+  .Footer {
+    padding: 30px;
+    margin: 0 -30px -30px;
+  }
+}

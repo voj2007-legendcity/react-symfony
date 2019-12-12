@@ -1,0 +1,12 @@
+.BlFeatures {
+  padding: 100px 0;
+  margin-bottom: -150px;
+  background-color: #e8f1f8 !important;
+}
+.Icon {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 80px;
+  flex: 0 0 80px;
+  max-width: 80px;
+  width: 80px;
+}

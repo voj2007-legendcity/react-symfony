@@ -1,0 +1,12 @@
+.Container > div:not(:last-child) {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #cfd8dc;
+ }
+
+ @media(min-width: 576px){
+  .Container > div:not(:last-child) {
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+   }
+ }

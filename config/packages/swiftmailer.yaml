@@ -1,0 +1,4 @@
+swiftmailer:
+    url: '%env(MAILER_URL)%'
+    # delivery_addresses: ['softkorp.linux@gmail.com']
+    #spool: { type: 'memory' }
